@@ -25,7 +25,7 @@ app.post('/create', function(req, res) {
     y: req.body.yimp}
 
   console.log(coords);
-  fs.writeFile('C:/Users/silas/RTZ/output.txt', "coords", (err) => { 
+  fs.writeFile('output.json', JSON.stringify(coords), (err) => { 
       
     // In case of a error throw err. 
     if (err) throw err; 
