@@ -1,0 +1,74 @@
+
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+  height: 40vmin;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.image {
+    max-width: 25%;
+    max-height: 100vh;
+    padding: 0;
+    position: relative;
+    margin: auto;
+
+}
+
+.NavBar{
+  position: absolute;
+}
+.example-input .ant-input {
+  width: 200px;
+  margin: 3px 8px 8px 3px;
+}
+
+.move-buttons {
+  margin: 3px 8px 4px 3px;
+
+}
+body{
+  background-color: lavender
+  }
+
+.button1{
+  size: "large";
+  top: 200px;
+  left: -10px;
+  right: -10px;
+  bottom: -191px;
+}
+.button2{
+  size: "large";
+  top: 200px;
+  left: 10px;
+  right: 10px;
+  bottom: -191px;
+}
+
+.welcome{
+  padding: 40px 20px 5px 0;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  top: 100px;
+  left: -0px;
+  right: -0px;
+  bottom: -100px;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
