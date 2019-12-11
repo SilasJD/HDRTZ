@@ -23,15 +23,15 @@ class Page1 extends Component {
   toggleDisable = () => {
     this.setState({disabled: !this.state.disabled});
     if(this.state.disabled == true){
-      this.setState({ximp: "0", yimp: "0"})
+      this.setState({ximp: 0, yimp: 0})
     }
   };
 updateInputValueX(e) {
-    this.setState({ximp: e.target.value == "" ? 0 : parseFloat(e.target.value)});
+    this.setState({ximp: e.target.value == "" ? parseFloat("0") : parseFloat(e.target.value)});
     
   }
   updateInputValueY(e) {
-    this.setState({yimp: e.target.value == "" ? 0 : parseFloat(e.target.value)});
+      this.setState({yimp: e.target.value == "" ? parseFloat("0") : parseFloat(e.target.value)});
     
   } 
   _onMouseMove(e) {
