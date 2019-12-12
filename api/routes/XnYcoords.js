@@ -30,6 +30,7 @@ app.post('/create', function(req, res) {
     // In case of a error throw err. 
     if (err) throw err; 
     }) 
+    res.send(200);
 });
 
 //start your server on port 3001
