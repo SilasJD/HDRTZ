@@ -35,10 +35,11 @@ updateInputValueX(e) {
     
   } 
   _onMouseMove(e) {
-    this.setState({ x: e.screenX - 640, y: e.screenY - 230 });
+      this.setState({ x: e.screenX - 640, y: e.screenY - 230 });
   }
 
   submit = (e) => {
+    
     const {ximp, yimp} = this.state;
     const coords = {ximp, yimp};
     axios
@@ -70,7 +71,7 @@ updateInputValueX(e) {
     return (
       <div className = "App">
       <div >
-        <img onMouseMove={this._onMouseMove.bind(this)} onClick = {this._onClick.bind(this)} src={require('./art.jpg')} className = "image" />
+            <img onMouseMove={this._onMouseMove.bind(this)} onClick = {this._onClick.bind(this)} src={require('./art.jpg')} className = "image" />
       </div>
       <h2>Coordinates of Mouse: {x} {y}</h2>
       <h2>Chosen Coordinates: {xcl} {ycl}</h2>

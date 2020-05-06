@@ -1,0 +1,1000 @@
+  235  cd simpleTexture3D/
+  236  ./simpleTexture3D 
+  237  ls
+  238  cd ..
+  239  ls
+  240  cd marchingCubes/
+  241  ./marchingCubes 
+  242  cd ~
+  243  cd Downloads/
+  244  cd ..
+  245  ls
+  246  cd Documents/
+  247  ls
+  248  mkdir test
+  249  cd test/
+  250  emacs main.cpp
+  251  emacs main.cpp -nw
+  252  ls
+  253  cd 02_getting_an_image_on_the_screen/
+  254  ls
+  255  sdl2-config 
+  256  sdl2-config --cflags --libs
+  257  g++ 02_getting_an_image_on_the_screen.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  258  ./a.out 
+  259  DBUS_FATAL_WARNINGS=0 ./a.out 
+  260  emacs 02_getting_an_image_on_the_screen.cpp 
+  261  g++ 02_getting_an_image_on_the_screen.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2 -lSDL2main
+  262  DBUS_FATAL_WARNINGS=0 ./a.out 
+  263  ls
+  264  emacs 02_getting_an_image_on_the_screen.cpp 
+  265  g++ 02_getting_an_image_on_the_screen.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2 -lSDL2main
+  266  DBUS_FATAL_WARNINGS=0 ./a.out 
+  267  cd ..
+  268  ls
+  269  cd ~/Do
+  270  cd ~/Downloads/
+  271  ls
+  272  cd sdl2/
+  273  ls
+  274  make
+  275  ls
+  276  sdl2-config 
+  277  sdl2-config --cflags --libs
+  278  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  279  emacs GameWindow.cpp 
+  280  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  281  DBUS_FATAL_WARNINGS=0 ./a.out 
+  282  emacs GameWindow.cpp
+  283  ls
+  284  cd ..
+  285  ls
+  286  cp TestImage.bmp sdl2/TestImage.bmp
+  287  ls
+  288  cd sdl2/
+  289  ls
+  290  ./a.out 
+  291  DBUS_FATAL_WARNINGS=0 ./a.out 
+  292  ls
+  293  emacs -nw GameWindow.cpp
+  294  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  295  DBUS_FATAL_WARNINGS=0 ./a.out 
+  296  emacs -nw GameWindow.cpp
+  297  DBUS_FATAL_WARNINGS=0 ./a.out 2
+  298  emacs -nw GameWindow.cpp
+  299  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  300  DBUS_FATAL_WARNINGS=0 ./a.out 2
+  301  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  302  emacs -nw GameWindow.cpp
+  303  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  304  DBUS_FATAL_WARNINGS=0 ./a.out 2
+  305  DBUS_FATAL_WARNINGS=0 ./a.out
+  306  DBUS_FATAL_WARNINGS=0 ./a.out 2
+  307  emacs -nw GameWindow.cpp
+  308  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  309  emacs -nw GameWindow.cpp
+  310  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  311  emacs -nw GameWindow.cpp
+  312  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  313  ./a.out 
+  314  DBUS_FATAL_WARNINGS=0 ./a.out 2
+  315  cd ..
+  316  ls
+  317  cd Downloads/
+  318  ls
+  319  cd sdl2/
+  320  ls
+  321  ./a.out 
+  322  DBUS_FATAL_WARNINGS=0 ./a.out 
+  323  emacs GameWindow.cpp
+  324  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  325  DBUS_FATAL_WARNINGS=0 ./a.out 
+  326  cp GameWindow.cpp fuckYou.cpp
+  327  emacs GameWindow.cpp
+  328  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  329  DBUS_FATAL_WARNINGS=0 ./a.out 
+  330  emacs GameWindow.cpp
+  331  DBUS_FATAL_WARNINGS=0 ./a.out 
+  332  emacs GameWindow.cpp
+  333  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  334  emacs GameWindow.cpp
+  335  ls
+  336  bash install-sh 
+  337  ls
+  338  make
+  339  bash autogen.sh 
+  340  ./configure 
+  341  mak
+  342  make
+  343  ./configure 
+  344  ls
+  345  rm config.*
+  346  ls
+  347  rmdir configure
+  348  rm configure
+  349  rm configure.in 
+  350  rm autogen.sh 
+  351  rm autom4te.cache/
+  352  rmdir autom4te.cache/
+  353  ls
+  354  rm acinclude.m4 
+  355  rm aclocal.m4 
+  356  rm install-sh 
+  357  rm LICENSE 
+  358  rm Makefile
+  359  rm Makefile.*
+  360  rm missing 
+  361  rm mkinstalldirs 
+  362  rm sample*
+  363  rm SDL_rotozoom.*
+  364  ls
+  365  rm testrotozoom.c 
+  366  rm VisualC.zip 
+  367  ls
+  368  emacs GameWindow.cpp
+  369  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  370  emacs GameWindow.cpp
+  371  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  372  emacs GameWindow.cpp
+  373  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  374  DBUS_FATAL_WARNINGS=0 ./a.out 
+  375  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  376  emacs GameWindow.cpp
+  377  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  378  DBUS_FATAL_WARNINGS=0 ./a.out 
+  379  emacs GameWindow.cpp
+  380  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  381  emacs GameWindow.cpp
+  382  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  383  emacs GameWindow.cpp
+  384  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  385  DBUS_FATAL_WARNINGS=0 ./a.out 
+  386  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  387  emacs GameWindow.cpp
+  388  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  389  DBUS_FATAL_WARNINGS=0 ./a.out 
+  390  emacs GameWindow.cpp
+  391  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  392  DBUS_FATAL_WARNINGS=0 ./a.out 
+  393  emacs GameWindow.cpp
+  394  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  395  DBUS_FATAL_WARNINGS=0 ./a.out 
+  396  emacs GameWindow.cpp
+  397  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  398  DBUS_FATAL_WARNINGS=0 ./a.out 
+  399  emacs GameWindow.cpp
+  400  DBUS_FATAL_WARNINGS=0 ./a.out 
+  401  emacs GameWindow.cpp
+  402  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  403  DBUS_FATAL_WARNINGS=0 ./a.out 
+  404  emacs GameWindow.cpp
+  405  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  406  DBUS_FATAL_WARNINGS=0 ./a.out 
+  407  ls
+  408  emacs fuckYou.cpp 
+  409  emacs GameWindow.cpp
+  410  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  411  emacs GameWindow.cpp
+  412  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  413  DBUS_FATAL_WARNINGS=0 ./a.out 
+  414  emacs GameWindow.cpp
+  415  DBUS_FATAL_WARNINGS=0 ./a.out 
+  416  emacs GameWindow.cpp
+  417  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  418  DBUS_FATAL_WARNINGS=0 ./a.out 
+  419  emacs GameWindow.cpp
+  420  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  421  DBUS_FATAL_WARNINGS=0 ./a.out 
+  422  emacs GameWindow.cpp
+  423  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  424  emacs GameWindow.cpp
+  425  DBUS_FATAL_WARNINGS=0 ./a.out 
+  426  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  427  emacs GameWindow.cpp
+  428  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  429  DBUS_FATAL_WARNINGS=0 ./a.out 
+  430  emacs GameWindow.cpp
+  431  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  432  DBUS_FATAL_WARNINGS=0 ./a.out 
+  433  emacs GameWindow.cpp
+  434  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  435  DBUS_FATAL_WARNINGS=0 ./a.out 
+  436  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  437  emacs GameWindow.cpp
+  438  DBUS_FATAL_WARNINGS=0 ./a.out 
+  439  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  440  DBUS_FATAL_WARNINGS=0 ./a.out 
+  441  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  442  DBUS_FATAL_WARNINGS=0 ./a.out 
+  443  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  444  emacs GameWindow.cpp
+  445  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  446  DBUS_FATAL_WARNINGS=0 ./a.out 
+  447  emacs GameWindow.cpp
+  448  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  449  DBUS_FATAL_WARNINGS=0 ./a.out 
+  450  cd Documents/
+  451  ls
+  452  cd ..
+  453  cd Downloads/
+  454  ls
+  455  emacs
+  456  ls
+  457  emacs GameWindow.cpp
+  458  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  459  DBUS_FATAL_WARNINGS=0 ./a.out 
+  460  emacs GameWindow.cpp
+  461  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  462  DBUS_FATAL_WARNINGS=0 ./a.out 
+  463  emacs GameWindow.cpp
+  464  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  465  DBUS_FATAL_WARNINGS=0 ./a.out 
+  466  emacs GameWindow.cpp
+  467  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  468  DBUS_FATAL_WARNINGS=0 ./a.out 
+  469  emacs GameWindow.cpp
+  470  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  471  DBUS_FATAL_WARNINGS=0 ./a.out 
+  472  emacs GameWindow.cpp
+  473  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  474  DBUS_FATAL_WARNINGS=0 ./a.out 
+  475  emacs GameWindow.cpp
+  476  g++ GameWindo-g w.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  477  g++ -g GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  478  gdb a.out 
+  479  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  480  DBUS_FATAL_WARNINGS=0 ./a.out 
+  481  emacs GameWindow.cpp
+  482  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  483  DBUS_FATAL_WARNINGS=0 ./a.out 
+  484  emacs GameWindow.cpp
+  485  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  486  DBUS_FATAL_WARNINGS=0 ./a.out 
+  487  emacs GameWindow.cpp
+  488  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  489  DBUS_FATAL_WARNINGS=0 ./a.out 
+  490  emacs GameWindow.cpp
+  491  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  492  DBUS_FATAL_WARNINGS=0 ./a.out 
+  493  emacs GameWindow.cpp
+  494  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  495  DBUS_FATAL_WARNINGS=0 ./a.out 
+  496  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  497  emacs GameWindow.cpp
+  498  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  499  DBUS_FATAL_WARNINGS=0 ./a.out 
+  500  emacs GameWindow.cpp
+  501  DBUS_FATAL_WARNINGS=0 ./a.out 
+  502  emacs GameWindow.cpp
+  503  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  504  DBUS_FATAL_WARNINGS=0 ./a.out 
+  505  emacs GameWindow.cpp
+  506  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  507  DBUS_FATAL_WARNINGS=0 ./a.out 
+  508  emacs GameWindow.cpp
+  509  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  510  DBUS_FATAL_WARNINGS=0 ./a.out 
+  511  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  512  emacs GameWindow.cpp
+  513  DBUS_FATAL_WARNINGS=0 ./a.out 
+  514  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  515  DBUS_FATAL_WARNINGS=0 ./a.out 
+  516  emacs GameWindow.cpp
+  517  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  518  DBUS_FATAL_WARNINGS=0 ./a.out 
+  519  emacs GameWindow.cpp
+  520  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  521  DBUS_FATAL_WARNINGS=0 ./a.out 
+  522  emacs GameWindow.cpp
+  523  cp GameWindow.cpp Working.cp
+  524  cp GameWindow.cpp Working.cpp
+  525  rm Working.cp
+  526  ls
+  527  emacs GameWindow.cpp
+  528  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  529  cp GameWindow.cpp Working.cpp
+  530  DBUS_FATAL_WARNINGS=0 ./a.out 
+  531  emacs GameWindow.cpp
+  532  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  533  DBUS_FATAL_WARNINGS=0 ./a.out 
+  534  emacs GameWindow.cpp
+  535  DBUS_FATAL_WARNINGS=0 ./a.out 
+  536  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  537  DBUS_FATAL_WARNINGS=0 ./a.out 
+  538  emacs GameWindow.cpp
+  539  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  540  DBUS_FATAL_WARNINGS=0 ./a.out 
+  541  emacs GameWindow.cpp
+  542  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  543  emacs GameWindow.cpp
+  544  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  545  emacs GameWindow.cpp
+  546  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  547  emacs GameWindow.cpp
+  548  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  549  emacs GameWindow.cpp
+  550  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  551  emacs GameWindow.cpp
+  552  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  553  clear
+  554  DBUS_FATAL_WARNINGS=0 ./a.out 
+  555  emacs GameWindow.cpp
+  556  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  557  DBUS_FATAL_WARNINGS=0 ./a.out 
+  558  emacs GameWindow.cpp
+  559  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  560  DBUS_FATAL_WARNINGS=0 ./a.out 
+  561  emacs GameWindow.cpp
+  562  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  563  emacs GameWindow.cpp
+  564  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  565  DBUS_FATAL_WARNINGS=0 ./a.out 
+  566  emacs GameWindow.cpp
+  567  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  568  DBUS_FATAL_WARNINGS=0 ./a.out 
+  569  emacs GameWindow.cpp
+  570  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  571  DBUS_FATAL_WARNINGS=0 ./a.out 
+  572  emacs GameWindow.cpp
+  573  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  574  emacs GameWindow.cpp
+  575  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  576  DBUS_FATAL_WARNINGS=0 ./a.out 
+  577  emacs GameWindow.cpp
+  578  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  579  DBUS_FATAL_WARNINGS=0 ./a.out 
+  580  emacs GameWindow.cpp
+  581  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  582  DBUS_FATAL_WARNINGS=0 ./a.out 
+  583  emacs GameWindow.cpp
+  584  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  585  DBUS_FATAL_WARNINGS=0 ./a.out 
+  586  cd Downloads/
+  587  ls
+  588  cd sdl2/
+  589  ls
+  590  DBUS_FATAL_WARNINGS=0 ./a.out 
+  591  emacs GameWindow.cpp
+  592  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  593  DBUS_FATAL_WARNINGS=0 ./a.out 
+  594  emacs GameWindow.cpp
+  595  cd Downloads/
+  596  ls
+  597  cd sdl2/
+  598  DBUS_FATAL_WARNINGS=0 ./a.out 
+  599  emacs GameWindow.\
+  600  emacs GameWindow.cpp
+  601  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  602  DBUS_FATAL_WARNINGS=0 ./a.out 
+  603  emacs GameWindow.cpp
+  604  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  605  DBUS_FATAL_WARNINGS=0 ./a.out 
+  606  emacs GameWindow.cpp
+  607  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  608  emacs GameWindow.cpp
+  609  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  610  DBUS_FATAL_WARNINGS=0 ./a.out 
+  611  emacs GameWindow.cpp
+  612  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  613  DBUS_FATAL_WARNINGS=0 ./a.out 
+  614  emacs GameWindow.cpp
+  615  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  616  DBUS_FATAL_WARNINGS=0 ./a.out 
+  617  emacs GameWindow.cpp
+  618  cd Downloads/
+  619  ls
+  620  DBUS_FATAL_WARNINGS=0 ./a.out 
+  621  emacs GameWindow.cpp
+  622  cd sdl2/
+  623  DBUS_FATAL_WARNINGS=0 ./a.out 
+  624  clear
+  625  emacs GameWindow.cpp
+  626  DBUS_FATAL_WARNINGS=0 ./a.out 
+  627  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  628  DBUS_FATAL_WARNINGS=0 ./a.out 
+  629  emacs GameWindow.cpp
+  630  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  631  DBUS_FATAL_WARNINGS=0 ./a.out 
+  632  emacs GameWindow.cpp
+  633  DBUS_FATAL_WARNINGS=0 ./a.out 
+  634  cd ..
+  635  ls
+  636  mkdir mainProj
+  637  ls
+  638  rmdir mainProj/
+  639  cd ..
+  640  ls
+  641  mkdir mainProj
+  642  ls
+  643  cd mainProj/
+  644  cp ~/Downloads/sdl2/GameWindow.cpp
+  645  cp ~/Downloads/sdl2/GameWindow.cpp ~/mainProj/
+  646  ls
+  647  cp ~/Downloads/sdl2/TestImage.bmp ~/mainProj/
+  648  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  649  cp ~/Downloads/sdl2/GameWindow.h ~/mainProj/
+  650  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  651  DBUS_FATAL_WARNINGS=0 ./a.out 
+  652  emacs GameWindow.cpp 
+  653  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  654  DBUS_FATAL_WARNINGS=0 ./a.out 
+  655  ls
+  656  cd Do
+  657  cd Downloads/
+  658  ls
+  659  cd ..
+  660  ls
+  661  cd mainProj/
+  662  ls
+  663  cd ..
+  664  ls
+  665  cd Downloads/
+  666  ls
+  667  cd sdl2/
+  668  ls
+  669  DBUS_FATAL_WARNINGS=0 ./a.out 
+  670  cd Downloads/sdl2/
+  671  emacs GameWindow.cpp
+  672  cd HDRTZ/
+  673  cd client/
+  674  ls
+  675  cd src/
+  676  ls
+  677  cd components/
+  678  ls
+  679  cd Downloads/sdl2/
+  680  ls
+  681  emacs GameWindow.cpp
+  682  cd Downloads/sdl2/
+  683  DBUS_FATAL_WARNINGS=0 ./a.out 
+  684  clear
+  685  emacs GameWindow.cpp
+  686  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  687  emacs GameWindow.cpp
+  688  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  689  DBUS_FATAL_WARNINGS=0 ./a.out 
+  690  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  691  DBUS_FATAL_WARNINGS=0 ./a.out 
+  692  emacs GameWindow.cpp
+  693  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  694  emacs GameWindow.cpp
+  695  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  696  emacs GameWindow.cpp
+  697  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  698  DBUS_FATAL_WARNINGS=0 ./a.out 
+  699  emacs GameWindow.cpp
+  700  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  701  DBUS_FATAL_WARNINGS=0 ./a.out 
+  702  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  703  emacs GameWindow.cpp
+  704  DBUS_FATAL_WARNINGS=0 ./a.out 
+  705  emacs GameWindow.cpp
+  706  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  707  DBUS_FATAL_WARNINGS=0 ./a.out 
+  708  emacs GameWindow.cpp
+  709  cd ..
+  710  cd sdl2/HDRTZ/api/
+  711  ls
+  712  pwd
+  713  emacs GameWindow.cpp
+  714  DBUS_FATAL_WARNINGS=0 ./a.out 
+  715  cd ..
+  716  DBUS_FATAL_WARNINGS=0 ./a.out 
+  717  cd Downloads/sdl2/HDRTZ/client/
+  718  npm start
+  719  cd Downloads/sdl2/HDRTZ/client/
+  720  npm sart
+  721  npm start
+  722  npm install react
+  723  npm start
+  724  npm install react-scripts
+  725  npm start
+  726  npm install antd
+  727  npm start
+  728  npm install axios
+  729  npm start
+  730  npm install react-dom
+  731  npm start
+  732  npm install react-router-dom
+  733  npm start
+  734  cd ..
+  735  cd api/
+  736  pwd
+  737  clear
+  738  npm start
+  739  cd ..
+  740  cd client/
+  741  ls
+  742  cd src/
+  743  cd components/
+  744  emacs Page1.js 
+  745  cd ..
+  746  cd api/
+  747  npm start
+  748  ls
+  749  cd bin
+  750  cd www
+  751  ls
+  752  emacs www
+  753  cd ..
+  754  npm start
+  755  cd bin
+  756  emacs www
+  757  cd ..
+  758  cd routes/
+  759  ls
+  760  emacs XnYcoords.js 
+  761  cd ..
+  762  npm start
+  763  emacs XnYcoords.js 
+  764  cd routes/
+  765  emacs XnYcoords.js 
+  766  cd ..
+  767  npm start
+  768  ls
+  769  cd Documents/
+  770  ls
+  771  cd ..
+  772  cd Downloads/
+  773  ls
+  774  cd sdl2/
+  775  ls
+  776  clear
+  777  sudo dnf install git-all
+  778  sudo apt install git-all
+  779  git clone https://www.github.com/SilasJD/HDRTZ
+  780  ls
+  781  cd HDRTZ/
+  782  ls
+  783  cd ..
+  784  sudo apt install nodejs
+  785  cd HDRTZ/
+  786  cd api
+  787  npm start
+  788  sudo apt install nodejs
+  789  npm start
+  790  curl -sL https://deb.nodesource.com/setup_10.x | sudo -E bash -
+  791  node --version
+  792  npm start
+  793  node sart
+  794  node start
+  795  npm --version
+  796  sudo apt install npm
+  797  npm start
+  798  ls
+  799  clear
+  800  npm start
+  801  dir
+  802  pwd
+  803  clea
+  804  r
+  805  clear
+  806  cd ..
+  807  ls
+  808  emacs GameWindow.cpp
+  809  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  810  emacs GameWindow.cpp
+  811  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  812  emacs GameWindow.cpp
+  813  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  814  clear
+  815  ls
+  816  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  817  emacs GameWindow.cpp
+  818  sudo apt-get install json
+  819  sudo apt-get install jsoncp
+  820  sudo apt-get install jsoncpp
+  821  c++ GameWindow.cpp -ljson
+  822  git clone https://github.com/Microsoft/vcpkg.git
+  823  cd vcpkg
+  824  ./bootstrap-vcpkg.sh
+  825  sudo apt-get install CURL
+  826  sudo apt-get install curl
+  827  ./bootstrap-vcpkg.sh
+  828  ./vcpkg integrate install
+  829  ./bootstrap-vcpkg.sh
+  830  vcpkg install jsoncpp
+  831  git clone https://github.com/Microsoft/vcpkg.git
+  832  ./bootstrap-vcpkg.sh
+  833  sudo apt install binfmt-support qemu qemu-user-static
+  834  ./bootstrap-vcpkg.sh
+  835  git clone https://github.com/Microsoft/vcpkg.git
+  836  cd vcpkg/
+  837  ./bootstrap-vcpkg.sh
+  838  ./vcpkg integrate install
+  839  ./bootstrap-vcpkg.sh
+  840  cd ..
+  841  clear
+  842  ls
+  843  rm vcpkg/
+  844  ls
+  845  git clone https://github.com/Microsoft/vcpkg.git
+  846  cd vcpkg/
+  847  ./bootstrap-vcpkg.sh
+  848  impdp '"/ as sysdba"' directory=planprocforgg schemas=PLANPROC  dumpfile=planprocforgg_%U.dmp logfile=planprocimp.log parallel=10 cluster=no
+  849  ./bootstrap-vcpkg.sh
+  850  apk install libc6-compat
+  851  sudo apt install libc6-compat
+  852  sudo apt install libc
+  853  sudo apt install libc6
+  854  ./bootstrap-vcpkg.sh
+  855  cd ..
+  856  ls
+  857  clear
+  858  emacs GameWindow.cpp
+  859  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  860  emacs GameWindow.cpp
+  861  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  862  emacs GameWindow.cpp
+  863  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  864  DBUS_FATAL_WARNINGS=0 ./a.out 
+  865  clear
+  866  emacs GameWindow.cpp
+  867  emacs GameWindow.
+  868  emacs GameWindow.cpp
+  869  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  870  emacs GameWindow.cpp
+  871  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  872  emacs GameWindow.cpp
+  873  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  874  DBUS_FATAL_WARNINGS=0 ./a.out 
+  875  emacs GameWindow.cpp
+  876  DBUS_FATAL_WARNINGS=0 ./a.out 
+  877  emacs GameWindow.cpp
+  878  DBUS_FATAL_WARNINGS=0 ./a.out 
+  879  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  880  DBUS_FATAL_WARNINGS=0 ./a.out 
+  881  emacs GameWindow.cpp
+  882  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  883  DBUS_FATAL_WARNINGS=0 ./a.out 
+  884  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  885  emacs GameWindow.cpp
+  886  DBUS_FATAL_WARNINGS=0 ./a.out 
+  887  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  888  DBUS_FATAL_WARNINGS=0 ./a.out 
+  889  emacs GameWindow.cpp\
+  890  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  891  DBUS_FATAL_WARNINGS=0 ./a.out 
+  892  emacs GameWindow.cpp\
+  893  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  894  DBUS_FATAL_WARNINGS=0 ./a.out 
+  895  emacs GameWindow.cpp
+  896  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  897  DBUS_FATAL_WARNINGS=0 ./a.out 
+  898  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  899  emacs GameWindow.cpp
+  900  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  901  DBUS_FATAL_WARNINGS=0 ./a.out 
+  902  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  903  DBUS_FATAL_WARNINGS=0 ./a.out 
+  904  emacs GameWindow.cpp
+  905  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  906  DBUS_FATAL_WARNINGS=0 ./a.out 
+  907  emacs GameWindow.cpp
+  908  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  909  DBUS_FATAL_WARNINGS=0 ./a.out 
+  910  sudo apt-get install libjsoncpp-dev
+  911  emacs GameWindow.cpp
+  912  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  913  emacs GameWindow.cpp
+  914  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  915  clear
+  916  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  917  clear
+  918  emacs GameWindow.cpp
+  919  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -lSDL2
+  920  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -ljsoncpp -lSDL2
+  921  DBUS_FATAL_WARNINGS=0 ./a.out 
+  922  emacs GameWindow.cpp
+  923  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -ljsoncpp -lSDL2
+  924  DBUS_FATAL_WARNINGS=0 ./a.out 
+  925  emacs GameWindow.cpp
+  926  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -ljsoncpp -lSDL2
+  927  DBUS_FATAL_WARNINGS=0 ./a.out 
+  928  emacs GameWindow.cpp
+  929  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -ljsoncpp -lSDL2
+  930  DBUS_FATAL_WARNINGS=0 ./a.out 
+  931  emacs GameWindow.cpp
+  932  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -ljsoncpp -lSDL2
+  933  DBUS_FATAL_WARNINGS=0 ./a.out 
+  934  emacs GameWindow.cpp
+  935  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -ljsoncpp -lSDL2
+  936  DBUS_FATAL_WARNINGS=0 ./a.out 
+  937  emacs GameWindow.cpp
+  938  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -ljsoncpp -lSDL2
+  939  DBUS_FATAL_WARNINGS=0 ./a.out 
+  940  cd HDRTZ/client/src/components/
+  941  emacs Page1.js 
+  942  cd ..
+  943  dc ..
+  944  cd ..
+  945  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -ljsoncpp -lSDL2
+  946  DBUS_FATAL_WARNINGS=0 ./a.out 
+  947  -launch-1.0 nvcamerasrc ! 'video/x-raw(memory:NVMM), width=640, height=480, framerate=30/1, format=NV12' ! nvvidconv flip-method=2 ! nvegltransform ! nveglglessink -e
+  948  gst-launch-1.0 nvcamerasrc ! 'video/x-raw(memory:NVMM), width=640, height=480, framerate=30/1, format=NV12' ! nvvidconv flip-method=2 ! nvegltransform ! nveglglessink -e
+  949  ./camera_v4l2_cuda -d /dev/video0 -s 640x480 -f YUYV -n 30 -c
+  950  t-launch-1.0 nvcamerasrc ! 'video/x-raw(memory:NVMM), width=640, height=480, framerate=30/1, format=NV12' ! nvvidconv flip-method=2 ! nvegltransform ! nveglglessink -e
+  951  gst-launch-1.0 nvcamerasrc ! 'video/x-raw(memory:NVMM), width=640, height=480, framerate=30/1, format=NV12' ! nvvidconv flip-method=2 ! nvegltransform ! nveglglessink -e
+  952  gst-launch-1.0 nvarguscamerasrc ! nvvidconv ! xvimagesink
+  953  cd 
+  954  ls
+  955  cd Downloads/
+  956  ls
+  957  cd sdl2/
+  958  ls
+  959  DBUS_FATAL_WARNINGS=0 ./a.out 
+  960  cd Downloads/sdl2/
+  961  ls
+  962  cd HDRTZ/
+  963  ls
+  964  cd api/
+  965  npm start
+  966  git
+  967  ls
+  968  cd Downloads/
+  969  ls
+  970  cd sdl2/
+  971  ls
+  972  cd HDRTZ
+  973  ls
+  974  ssh-keygen -t rsa -b 4096 -
+  975  ssh-keygen -t rsa -b 4096 -C jbyron1@umbc.edu
+  976  cat ~/.ssh/id_rsa.pub 
+  977  ls
+  978  git add .
+  979  git commit
+  980  git commit -m "Adding Backend"
+  981  git config --global user.email "jbyron1@umbc.edu"
+  982  git config --global user.name "JD Byron"
+  983  git commit -m "Adding Backend"
+  984  git push origin https://www.github.com/silasJD/HDRTZ
+  985  git push origin https://www.github.com/SilasJD/HDRTZ
+  986  git push origin master https://www.github.com/SilasJD/HDRTZ
+  987  git remote add origin https://www.github.com/SilasJD/HDRTZ
+  988  git remote -v
+  989  git push -u origin master
+  990  cd api/
+  991  ls
+  992  cd ..
+  993  cd client/
+  994  npm start
+  995  ls
+  996  emacs test.cpp
+  997  g++ test.cpp -o test
+  998  g++ -I/usr/include/rubberband/ test.cpp -o test
+  999  ./test 
+ 1000  g++ -I/usr/include/ test.cpp -o test
+ 1001  g++ -I/usr/include/rubberband/ test.cpp -o test
+ 1002  cd ..
+ 1003  ls
+ 1004  cd .
+ 1005  cd ~
+ 1006  ls
+ 1007  cd Downloads/
+ 1008  ls
+ 1009  bash makescript.sh 
+ 1010  cd ..
+ 1011  ls
+ 1012  cd Downloads/
+ 1013  ls
+ 1014  cd sdl2/
+ 1015  ls
+ 1016  g++ GameWindow.cpp -I/usr/include/SDL2 -D_REENTRANT -ljsoncpp -lSDL2
+ 1017  emacs makescript.sh
+ 1018  sudo chmod +x makescript.sh 
+ 1019  makescript.sh
+ 1020  bash makescript.sh 
+ 1021  sudo
+ 1022  su
+ 1023  ls
+ 1024  cd ..
+ 1025  ls
+ 1026  cd ..
+ 1027  ls
+ 1028  g++ -I/usr/include/rubberband/ test.cpp -o test
+ 1029  cd ..
+ 1030  ls
+ 1031  cd ~/Downloads/
+ 1032  ls
+ 1033  cd sdl2/
+ 1034  cd HDRTZ/
+ 1035  cd Backend/
+ 1036  ./a.out 
+ 1037  emacs start.sh
+ 1038  bash start.sh 
+ 1039  cd ~
+ 1040  emacs start.sh
+ 1041  bash start.sh 
+ 1042  emacs start.sh
+ 1043  bash start.sh
+ 1044  jobs
+ 1045  bash start.sh
+ 1046  ls
+ 1047  jobs
+ 1048  fg
+ 1049  ls
+ 1050  bash start.sh
+ 1051  cd Downloads/sdl2/HDRTZ/
+ 1052  ls
+ 1053  cd api/
+ 1054  ls
+ 1055  emacs output.
+ 1056  emacs output.json 
+ 1057  cd ~
+ 1058  bash start.sh
+ 1059  cd Downloads/sdl2/HDRTZ/
+ 1060  ls
+ 1061  emacs output.txt 
+ 1062  cd Backend/
+ 1063  ls
+ 1064  emacs CMakeLists.txt
+ 1065  ls
+ 1066  cd bin/
+ 1067  ls
+ 1068  make
+ 1069  cd ..
+ 1070  ls
+ 1071  emacs makescript.sh 
+ 1072  which libsdl2
+ 1073  emacs makescript.sh 
+ 1074  bash makescript.sh 
+ 1075  emacs makescript.sh 
+ 1076  bash makescript.sh 
+ 1077  emacs makescript.sh 
+ 1078  bash makescript.sh 
+ 1079  bash start.sh 
+ 1080  cd ~/build/
+ 1081  cd sdl2/
+ 1082  ls
+ 1083  cd SDL2-2.0.10/
+ 1084  ls
+ 1085  ./configure 
+ 1086  make
+ 1087  make -j6
+ 1088  sudo make install -j6
+ 1089  which sdl2-config 
+ 1090  sdl2-config --cflags --libs
+ 1091  cd ~/Downloads/sdl2/HDRTZ/
+ 1092  ls
+ 1093  cd Backend/
+ 1094  ls
+ 1095  emasc makescript.sh 
+ 1096  emacs makescript.sh 
+ 1097  bash makescript.sh 
+ 1098  emacs makescript.sh 
+ 1099  bash makescript.sh 
+ 1100  emacs makescript.sh 
+ 1101  bash makescript.sh 
+ 1102  bash start.sh 
+ 1103  emacs start.sh 
+ 1104  ./a.out 
+ 1105  cd Downloads/sdl2/HDRTZ/
+ 1106  cd Backend/
+ 1107  bash makescript.sh 
+ 1108  bash start.sh 
+ 1109  bash makescript.sh 
+ 1110  bash start.sh 
+ 1111  bash makescript.sh 
+ 1112  bash start.sh 
+ 1113  bash makescript.sh 
+ 1114  bash start.sh 
+ 1115  bash makescript.sh 
+ 1116  bash start.sh 
+ 1117  bash makescript.sh 
+ 1118  bash start.sh 
+ 1119  emacs makescript.sh 
+ 1120  which cmake
+ 1121  cmake
+ 1122  sudo apt-get install cmake
+ 1123  which cmake
+ 1124  cmake-gui
+ 1125  sudo apt-get install cmake-gui
+ 1126  cmake-gui 
+ 1127  ls
+ 1128  cd Downloads/
+ 1129  ls
+ 1130  cd sdl2/
+ 1131  ls
+ 1132  cd HDRTZ/
+ 1133  ls
+ 1134  cd Backend/
+ 1135  ls
+ 1136  rm fuckYou.cpp 
+ 1137  ls
+ 1138  emacs GameWindow.cpp 
+ 1139  bash makescript.sh 
+ 1140  bash start.sh 
+ 1141  bash makescript.sh 
+ 1142  emacs makescript.sh 
+ 1143  emacs GameWindow.cpp 
+ 1144  bash start.sh 
+ 1145  emacs GameWindow.cpp 
+ 1146  bash start.sh 
+ 1147  bash makescript.sh 
+ 1148  bash start.sh 
+ 1149  emacs GameWindow.cpp 
+ 1150  bash makescript.sh 
+ 1151  bash start.sh 
+ 1152  emacs GameWindow.cpp 
+ 1153  bash makescript.sh 
+ 1154  bash start.sh 
+ 1155  emacs GameWindow.cpp 
+ 1156  code
+ 1157  cd ~/Downloads/
+ 1158  ls
+ 1159  sudo apt install ./code_1.40.2-1574694120_amd64.deb 
+ 1160  sudo apt-get install geany
+ 1161  geany sdl2/HDRTZ/Backend/GameWindow.cpp 
+ 1162  bash start.sh
+ 1163  ./a.out 
+ 1164  start.sh
+ 1165  start
+ 1166  bash start.sh
+ 1167  cd Downloads/sdl2/HDRTZ/Backend/
+ 1168  bash start.sh 
+ 1169  sudo apt-install gtk-recordmydesktop
+ 1170  sudo apt-get install gtk-recordmydesktop
+ 1171  bash start.sh 
+ 1172  bash
+ 1173  ./a.out 
+ 1174  which sdl2-config 
+ 1175  ls
+ 1176  cd Downloads/H
+ 1177  cd Downloads/sdl2/
+ 1178  cd HDRTZ/Backend/
+ 1179  ./a.out \
+ 1180  bash makescript.sh 
+ 1181  ./a.out
+ 1182  bash makescript.sh 
+ 1183  ./a.out
+ 1184  emacs GameWindow.cpp
+ 1185  bash makescript.sh 
+ 1186  ./a.out
+ 1187  emacs GameWindow.cpp
+ 1188  bash makescript.sh 
+ 1189  ./a.out
+ 1190  cd ..
+ 1191  git remote -v
+ 1192  git pull
+ 1193  clear
+ 1194  bash start.sh
+ 1195  cd ..
+ 1196  cd ~
+ 1197  bash start.sh
+ 1198  clear
+ 1199  la
+ 1200  clear
+ 1201  cd ~/Downloads/sdl2/HDRTZ/Backend/
+ 1202  bash start.sh 
+ 1203  bash start.sh
+ 1204  cd Downloads/sdl2/HDRTZ/client/
+ 1205  cd src/components/
+ 1206  ls
+ 1207  emacs Page1.js
+ 1208  cd ~
+ 1209  bash start.sh
+ 1210  cd Downloads/sdl2/HDRTZ/client/
+ 1211  cd src/components/
+ 1212  emacs Page1.js 
+ 1213  cd ~
+ 1214  bash start.sh
+ 1215  cd Downloads/sdl2/HDRTZ/client/src/components/
+ 1216  emacs Page.
+ 1217  emacs Page.js
+ 1218  emacs Page1.js
+ 1219  cd ~/Downloads/sdl2/HDRTZ/Backend/
+ 1220  ./a.out 
+ 1221  ls
+ 1222  cp TestImage.bmp test2.bmp
+ 1223  cp asdf.bmp TestImage.bmp 
+ 1224  ./a.out 
+ 1225  cd ..
+ 1226  ls
+ 1227  cd api/
+ 1228  ls
+ 1229  emacs output.json 
+ 1230  cd ..
+ 1231  cd Backend/
+ 1232  ./a.out 
+ 1233  history
+ 1234  history > hist.txt

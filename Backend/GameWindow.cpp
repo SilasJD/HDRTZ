@@ -1,4 +1,4 @@
-
+ 
 #include <jsoncpp/json/json.h>
 #include <fstream>
 #include "GameWindow.h"
@@ -17,7 +17,7 @@ using namespace std;
 
 GameWindow::GameWindow(int screenWidth, int screenHeight){
     SDL_Init(SDL_INIT_VIDEO);
-    m_gameWindow = SDL_CreateWindow("a window", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, 1000, 1000,SDL_WINDOW_OPENGL);
+    m_gameWindow = SDL_CreateWindow("a window", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,/*1000*/ 1000, /*1000*/ 1000,SDL_WINDOW_OPENGL);
 }
 
 GameWindow::~GameWindow(){
@@ -52,9 +52,14 @@ void GameWindow::BlitToWindow(SDL_Surface* sourceSurface, const SDL_Rect* srcRec
 }
  
 int main(int argc, char* argv[]){
+
+    SDL_DisplayMode current;
+    int error = SDL_GetCurrentDisplayMode(0, &current);
+    int width = current.w;
+    int height = current.h;
     //double rate = atof(argv[1]);
     printf("Test");
-    GameWindow window = GameWindow(1000,1000);
+    GameWindow window = GameWindow(width,height);
     SDL_Renderer* gRender = SDL_CreateRenderer(window.GetWindow(), -1, SDL_RENDERER_ACCELERATED);
  
     SDL_Texture* newTex = NULL;
@@ -70,14 +75,14 @@ int main(int argc, char* argv[]){
      SDL_RenderCopy(gRender, newTex, NULL, NULL);
      SDL_RenderPresent(gRender);
      SDL_Point p;
-     p.x=300;
+     p.x=500;
      p.y=500;
      float angle = 0;
      float MAX_INTERVAL = 15;
      float interval = .5;
      bool quit = false;
     SDL_Event e;
-
+	int lf_count = 0;
     while(!quit){
 
       
@@ -88,7 +93,7 @@ int main(int argc, char* argv[]){
       Json::Value obj;
       reader.parse(ifs, obj);
 
-      cout << "X1: " << obj["x"].asInt() << endl;
+     // cout << "X1: " << obj["x"].asInt() << endl;
       p.x = obj["x"].asInt() + 500;
       p.y = obj["y"].asInt() + 500;
       start_tick = SDL_GetTicks();
@@ -98,7 +103,7 @@ int main(int argc, char* argv[]){
                 {
                     //User requests quit
                     if( e.type == SDL_QUIT )
-                    {
+                    {	cout << lf_count <<endl;
                         quit = true;
                     }
 		    else if( e.type == SDL_KEYDOWN){
@@ -126,11 +131,13 @@ int main(int argc, char* argv[]){
 			}
 		    }
 		    }
-
+	  SDL_Surface* img = SDL_LoadBMP("TestImage.bmp");
+      newTex = SDL_CreateTextureFromSurface(gRender, img);
+      SDL_FreeSurface(img);
       SDL_RenderClear(gRender);
       SDL_RenderCopyEx(gRender, newTex, NULL, NULL, angle,&p, SDL_FLIP_NONE);
       SDL_RenderPresent(gRender);
-      //      SDL_DestroyTexture(newTex);
+      SDL_DestroyTexture(newTex);
       SDL_Delay(.1);
       angle += interval;
     /*
@@ -139,6 +146,9 @@ int main(int argc, char* argv[]){
       if((1000/fps) > SDL_GetTicks() - start_tick){
 	SDL_Delay((1000/fps)-(SDL_GetTicks()-start_tick));
       }
+      else if((1000/fps) < SDL_GetTicks() - start_tick){
+		  lf_count++;
+	  }
       
     }   
     
