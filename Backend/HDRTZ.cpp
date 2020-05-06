@@ -20,11 +20,13 @@ const int SCREEN_WIDTH = 1920;
 const int SCREEN_HEIGHT = 1080;
 const int fps = 120;
 
+
+//function to convert an openCV Mat to a SDL_Texture
 SDL_Texture * TexFromCV(const Mat& mat, SDL_Renderer* renderer);
 
 int main(int argc, char* args[]){
 
-
+  //usb device to read crank input from
   int USB = open( "/dev/ttyUSB0", O_RDWR| O_NOCTTY );
 
   
@@ -81,6 +83,8 @@ int main(int argc, char* args[]){
   SDL_Window* window = NULL;
   SDL_Surface* screenSurface = NULL;
   SDL_Renderer* renderer = NULL;
+
+  //initialize SDL Things
   if(SDL_Init(SDL_INIT_VIDEO) < 0) printf("SDL_ERROR: %s\n", SDL_GetError());
   window = SDL_CreateWindow("HDRTZ", SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED,
 			    SCREEN_WIDTH, SCREEN_HEIGHT,  SDL_WINDOW_FULLSCREEN_DESKTOP);
@@ -100,7 +104,7 @@ int main(int argc, char* args[]){
   SDL_Surface* xSurf    = IMG_Load("xhair.png");
   SDL_Texture* xTex     = SDL_CreateTextureFromSurface(renderer, xSurf);
 
-  // VideoCapture cap("nvarguscamerasrc ! video/x-raw(memory:NVMM), width=(int)1280, height=(int)720,format=(string)NV12, framerate=(fraction)120/1 ! nvvidconv ! video/x-raw, format=(string)BGRx ! videoconvert ! video/x-raw, format=(string)BGR ! appsink"); 
+  //Initialize openCV camera and set up image capture
   VideoCapture cap;
   cap.open(1);
   cap.set(CV_CAP_PROP_FRAME_WIDTH, 1920);
@@ -127,14 +131,16 @@ int main(int argc, char* args[]){
   while(!quit){
     
      std::ifstream coords("/home/nvidia/HDRTZ/api/output.json", std::ifstream::binary);
-    
+     //Handle the input from the website
     ifstream ifs("/home/nvidia/HDRTZ/api/output.json");
     Json::Reader reader;
     Json::Value obj;
     reader.parse(ifs, obj);
     int crosshair;
     int mask;
-    
+
+
+    //Resize the capture to be the size of the screen
     SDL_Rect videostream;
     videostream.w = 1920;
     videostream.h = 1080;
@@ -154,6 +160,9 @@ int main(int argc, char* args[]){
                     {	
                         quit = true;
                     }
+
+
+		    //Debug features for testing without crank
 		    else if( e.type == SDL_KEYDOWN){
 		      switch(e.key.keysym.sym)
 			{
@@ -213,9 +222,12 @@ int main(int argc, char* args[]){
      myfile.close();
 
     */
+
+    //handle crank data
     int raw_crank_data;
     raw_crank_data = atoi(response);
-    
+
+    //these values might need to change based on environment and setup
     int idleLow  = 91,
         idleHigh = 94,
         minVal   = 70,
@@ -255,30 +267,44 @@ int main(int argc, char* args[]){
     Mat frame;
     SDL_Texture* tex = NULL;
     
-    
+    //get the latest frame from openCV
     cap >> frame;
     waitKey(1);
+
+    //convert that frame to a texture
     tex = TexFromCV(frame, renderer);
+    
     if(tex != NULL){
-    SDL_RenderClear(renderer);
-    SDL_RenderCopyEx(renderer, tex, NULL, &videostream, angle, &p, SDL_FLIP_NONE);
+      //Render the frame if it exists
+      SDL_RenderClear(renderer);
+      SDL_RenderCopyEx(renderer, tex, NULL, &videostream, angle, &p, SDL_FLIP_NONE);
     cout << "mask: " << mask << " crosshair: " << crosshair << endl;
+
+    //render the image mask
     if(mask == 1){
       SDL_RenderCopy(renderer, maskTex, NULL, NULL);
     }
+
+    //render the crosshair
     if(crosshair == 1){
       SDL_RenderCopy(renderer, xTex, NULL, NULL);
     }
+
+    //present the texutre and prepare for the next frae
     SDL_RenderPresent(renderer);
     SDL_DestroyTexture(tex);
     angle += interval;
 
+   
     audio = interval / (MAX_INTERVAL * 2);
     ofstream outputFile("/tmp/pitch");
     //...
     outputFile << to_string(audio);
     outputFile.close();
     }
+
+    //lock the framerate to the value provided by fps
+    //if this isn't here, the image can become jittery
     if((1000/fps) > SDL_GetTicks() - start_tick){
 	SDL_Delay((1000/fps)-(SDL_GetTicks()-start_tick));
       }
@@ -289,13 +315,13 @@ int main(int argc, char* args[]){
   }
 }
 
-
+//Function to convert openCV mat to SDL_Texture
 SDL_Texture* TexFromCV(const Mat &mat, SDL_Renderer* renderer){
 
   IplImage cvFrame = (IplImage)mat;
   IplImage* cvFramePtr = &cvFrame;
   
-
+  //create a surface first, luckily IplImage and surface seem to play nice
   SDL_Surface* frameData = SDL_CreateRGBSurfaceFrom(
 						    (void*)cvFramePtr -> imageData,
 						    cvFramePtr->width, cvFramePtr->height,
@@ -311,7 +337,7 @@ SDL_Texture* TexFromCV(const Mat &mat, SDL_Renderer* renderer){
   }
 
   
-
+  //if the mat converts to surface nicely, then it will convert the surface to a texture
   SDL_Texture* frameTex = NULL;
   frameTex = SDL_CreateTextureFromSurface(renderer, frameData);
 
